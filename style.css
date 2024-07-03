@@ -1,0 +1,149 @@
+*{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    background-color: #00C399;
+}
+body{
+    margin: 50px 20px 40px 20px;
+    color: white;
+   
+    background-color: black;
+    font-family: "Figtree",
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI";
+}
+.navbar-main{
+    height: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+
+
+}
+.logo{
+width: fit-content;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 170%;
+
+    
+}
+.nav-end{
+    display: flex;
+    width: 15%;
+    justify-content: space-evenly;
+}
+#request{
+    color: #00C399;
+    border-bottom: 5px solid #00C399 ;
+    border-radius: 100%;
+    
+    
+    
+}
+.switch-account{
+    color: #00C399;
+    background-color: rgb(2, 2, 17);
+    height: 30px;
+    border: none;
+    padding:  10px 20px;
+    cursor: pointer;
+    border-radius: 5px; /* Add rounded corners */
+    display: inline-block;
+
+    
+}
+.login-to-your{
+    display:flex;
+   justify-content: center;
+    
+}
+p{
+    
+    display: flex;
+    padding-top: 5px;   
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+.button{
+    padding-top: 70px;
+}
+.Button{
+   width: 320px;
+   height: 60px;
+   border-radius: 5px;
+   background-color: #3e3e3e;
+   color: grey;
+   border: 3px solid #3e3e3e;
+   padding-left: 25px;
+   padding-top: 10px;
+   margin: 7px;
+}
+
+#Arrow{
+    display: flex;
+    color: black;
+    background-image: linear-gradient(90deg,#00C59B,#AFCA7D,#E5CA80);
+}
+#arrow{
+   font-size: 200%;
+   padding-left: 55px;
+   padding-bottom: 20px;
+
+}
+
+.google,.apple,.facebook{
+    width: 320px;
+   height: 60px;
+   border-radius: 5px;
+   border: 3px solid #3e3e3e;
+   padding-left: 25px;
+   padding-top: 10px;
+   margin: 7px;
+   font-size: 20px;
+   color: white;
+   display: flex;
+
+}
+.svg{
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+
+.button,.Signin,.seperator{
+    justify-content: space-evenly;
+    display:flex ;
+    padding-left: 300px;
+    padding-right:300px;
+}
+.seprator{
+  -webkit-transform: translate(0px,65px);
+}
+.forgotpassword{
+    text-align: center;
+    padding-top: 50px;
+}
+.policy {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    margin-top: 150px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
